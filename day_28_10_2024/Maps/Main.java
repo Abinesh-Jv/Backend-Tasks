@@ -21,7 +21,7 @@ public class Main {
         hashTable.put("Theater2", "Midtown");
         hashTable.put("Theater3", "Uptown");
         System.out.println("\nHashtable :");
-        System.out.println(hashTable); //no null keys/values, no order maintained
+        System.out.println(hashTable); //no null keys or values and no order maintained
 
         Map<String, String> linkedHashMap = new LinkedHashMap<>();
         linkedHashMap.put("Theater1", "Downtown");
